@@ -14,7 +14,7 @@ module.exports = {
  onChat: async function({ event, message, getLang }) {
  if (event.body && event.body.toLowerCase() === "🙂") {
  return message.reply({
- body: "     「𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥\n☆𝐀𝐁𝐇𝐑𝐀𝐍𝐈𝐋☆-----ᑘᒪᒪᗩSᕼ ッ」",
+ body: "     「𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥\n☆𝐬𝐡𝐢𝐚𝐦🙁😓😅☆-----ᑘᒪᒪᗩSᕼ ッ」",
  attachment: await global.utils.getStreamFromURL("https://i.imgur.com/QeOll4M.mp4")
  });
  }
