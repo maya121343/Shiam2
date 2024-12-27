@@ -15,12 +15,12 @@ module.exports = {
 		envConfig: {}
 	},
 	onStart: async function ({ message }) {
-		const authorName = " ᑘᒪᒪᗩSᕼ ッ ";
-		const ownAge = "『 21 』";
+		const authorName = " 𝕤𝕙𝕚𝕒𝕞 ッ ";
+		const ownAge = "『 18 』";
 		const messenger = "https://m.me/61567301076941";
 		const authorFB = "https://www.facebook.com/ayat.chowdhury.936741";
 		const authorNumber = "এইটা পার্সোনাল";
-		const Status = "complicated";
+		const Status = "𝕤𝕚𝕟𝕘𝕝𝕖";
 		const urls = [
 "https://i.imgur.com/zLH9Akq.jpeg",
 "https://i.imgur.com/yFGI6sF.jpeg",
