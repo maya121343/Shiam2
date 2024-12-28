@@ -2,7 +2,7 @@ const axios = require('axios');
 const UPoLPrefix = [
   '-ai',
   'ai',
-  '/ai',
+  '/saima',
   '',
   'ask'
 ]; 
@@ -28,7 +28,7 @@ const UPoLPrefix = [
       
      const upol = event.body.substring(ahprefix.length).trim();
    if (!upol) {
-        await message.reply('𝐚𝐬𝐬𝐚𝐥𝐚𝐦𝐮𝐚𝐥𝐚𝐢𝐤𝐮𝐦 ★~(◠‿◕✿)𝐚𝐦𝐢 saima 𝐲𝐨𝐮𝐫 𝐩𝐞𝐫𝐬𝐨𝐧𝐚𝐥 𝐚𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 🥰😘 how can i assist you .? 🥹');
+        await message.reply('𝐚𝐬𝐬𝐚𝐥𝐚𝐦𝐮𝐚𝐥𝐚𝐢𝐤𝐮𝐦 ★~(◠‿◕✿)𝐢m saima 𝐲𝐨𝐮𝐫 𝐩𝐞𝐫𝐬𝐨𝐧𝐚𝐥 𝐚𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 🥰😘 how can i assist you .? ');
         return;
       }
       
