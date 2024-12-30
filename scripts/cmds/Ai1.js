@@ -1,8 +1,8 @@
 const axios = require('axios');
 const UPoLPrefix = [
-  '-ai',
+  'assistant',
+  'saima',
   'ai',
-  '/saima',
   '',
   'ask'
 ]; 
